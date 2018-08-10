@@ -2,6 +2,8 @@ let map;
 let infowindow;
 
 //funcion que inicializa el mapa que tiene como parametro filter
+
+
 function initMap(searchValue) {  
 
   navigator.geolocation.getCurrentPosition(function (pos) {
