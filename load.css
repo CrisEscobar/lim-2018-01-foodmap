@@ -27,6 +27,7 @@
     position: absolute;
     border: 5px solid transparent;
     border-radius: 50%;
+   
    }
    .loader1 {
     width: 70px;
@@ -43,7 +44,7 @@
     top: 10px; left: 10px;
     animation: anticlockwisespin 1s linear 2;
    }
-   
+
    
    @keyframes clockwisespin {
     from {transform: rotate(0deg);}
@@ -58,3 +59,13 @@
     to {opacity: 0;}
    }
    
+   @media screen and (max-width: 675px) {
+
+    .logo {
+        font-size: 45px;
+        margin-left:-15%;
+        margin-right:-10%;
+        text-align:center;
+       }
+    
+    } 

@@ -1,5 +1,5 @@
 * {
-    font-family: 'Oswald', sans-serif; 
+    font-family: 'Raleway', sans-serif;
     font-size:20px;
     color:black;
 }
@@ -7,51 +7,49 @@
 #col1 {
     overflow: scroll;
     height:650px;
+    
 }
 
 #mapa {
     width: 100%; 
-    height: 600px;
+    height: 570px;
 
 }
 
 
 .topnav {
 overflow: hidden;
-background-color:#fff01e;
+background-color:#ffee00;
 }
   
 .topnav a {
-float: left;
+float: center;
 display: block;
-color: #ffffff;
+color:black;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
 cursor:pointer;
+
 }
 
-.topnav a:hover {
-background-color: rgb(255, 255, 255);
-color: black;
-}
+
   
 .active {
+font-family: 'Oswald', cursive;
 
-background-color: rgb(0, 0, 0);
-color: white;
-font-family: 'Grand Hotel', cursive;
 }
 
 #tit-nav {
-font-family: 'Oswald', sans-serif;
-font-size: 30px;
+font-family: 'Leckerli One', cursive;
+font-size: 40px;
 pointer-events:none;
+
 }
 
 i {
-    color:#fff01e;
+    color:black;
   
 }
 
@@ -66,8 +64,28 @@ display: none;
 
 .search {
     font-size: 16px;
-    width:80%;
+    width:92%;
+    border-radius:5px;
+    border: 1px solid rgb(161, 160, 160);
+    background-color: rgb(243, 240, 240);
+    height:40px;
+  
+    
 }
+
+.subtitle {
+    font-weight:700;
+}
+
+.buttonInfo {
+    font-size: 15px;
+    background-color:#f15656;
+    color:white;
+    margin-top:10px;
+    border:none;
+    cursor:pointer;
+}
+
 
 @media screen and (max-width: 600px) {
 
@@ -83,8 +101,6 @@ display: block;
 }  
 #mapa {
     height: 250px;
-    
-
 }
 }
   
@@ -109,6 +125,17 @@ text-align: left;
    
     height:300px;
 }
+.buttonInfo {
+    font-size: 15px;
+    height:45px;
+ 
+}
+#col1 {
+    overflow: scroll;
+    height:400px;
+    
+}
+
 
 
 } 

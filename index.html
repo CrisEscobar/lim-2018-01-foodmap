@@ -6,32 +6,30 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=places"></script>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body onload="initMap()">
     <div class="topnav" id="myTopnav">
-        <a id="tit-nav" class="active"> Lima Food
-            <i class="fas fa-utensils"></i>
-        </a>
+        <a id="tit-nav" class="active"> Lima Food </a>
 
-        <a href="javascript:void(0);" class="icon" onclick="menuOptions()">
-            <i class="fa fa-bars"></i>
+       
         </a>
     </div>
 
     <div class="w3-row">
         <div id="col1" class="w3-col m4">
             <div class="w3-content w3-margin">
-                <p> Restaurantes </p>
-                <input id="searchRestaurant" class="search" placeholder="Filtra por nombre"> </input>
+                <nav class="subtitle"> Restaurantes cerca de ti  <i class="fas fa-utensils"></i> </nav> 
+                <br>
                 <i class="fas fa-search"></i>
+                <input id="searchRestaurant" class="search" placeholder="Filtra por nombre"> </input>
                 <div id="postRestaurant"></div>
                 <div id="id01" class="w3-modal">
                     <div class="w3-modal-content">
@@ -47,9 +45,8 @@
 
         <div class="w3-col m8">
             <div class="w3-content w3-margin">
-                <p> Ubicación
-                    <i class="fas fa-map-marker-alt"></i>
-                </p>
+                <nav class="subtitle"> Ubicación <i class="fas fa-map-marker-alt"></i></nav>
+                <br>
                 <div id="mapa">
                 </div>
             </div>
