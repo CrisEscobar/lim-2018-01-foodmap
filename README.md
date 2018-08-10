@@ -1,4 +1,4 @@
-Link a demo: (https://crisescobar.github.io/lim-2018-01-foodmap/)
+Link a demo: (https://crisescobar.github.io/lim-2018-01-foodmap/load.html)
 #  F O O D M A P
 
 Crea una web-app que a través de un input pueda filtrar los restaurantes
